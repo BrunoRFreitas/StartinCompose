@@ -1,6 +1,5 @@
 package com.brfdev.startcompose
 
-import android.graphics.drawable.shapes.OvalShape
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -9,16 +8,10 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Text
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.geometry.Size
-import androidx.compose.ui.geometry.toRect
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Outline
-import androidx.compose.ui.graphics.Shape
-import androidx.compose.ui.unit.Density
-import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 
-class MainActivity2 : ComponentActivity() {
+class Modifiers : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
